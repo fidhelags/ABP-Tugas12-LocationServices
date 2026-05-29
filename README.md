@@ -1,17 +1,21 @@
-# tugas_12_103012300320_fidhela
+# Tugas 12 - Maps & Place
 
-A new Flutter project.
+Aplikasi Flutter untuk Tugas 12 mata kuliah Aplikasi Berbasis Platform.
 
-## Getting Started
+## Fitur
+- Mengambil koordinat perangkat saat ini menggunakan `Geolocator.getCurrentPosition()`
+- Mengkonversi alamat kampus menjadi koordinat menggunakan `locationFromAddress()`
+- Mengkonversi koordinat menjadi alamat lengkap menggunakan `placemarkFromCoordinates()`
 
-This project is a starting point for a Flutter application.
+## Package
+- [geolocator](https://pub.dev/packages/geolocator)
+- [geocoding](https://pub.dev/packages/geocoding)
 
-A few resources to get you started if this is your first Flutter project:
+## Setup
+```bash
+flutter pub get
+flutter run
+```
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Output
+Hasil ketiga fungsi ditampilkan pada UI aplikasi dan Debug Console.
