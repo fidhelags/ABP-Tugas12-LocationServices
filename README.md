@@ -1,6 +1,7 @@
-# Tugas 12 - Maps & Place
+# Tugas 12 - Location Services
 
 Aplikasi Flutter untuk Tugas 12 mata kuliah Aplikasi Berbasis Platform.
+Fidhela Ghaisani Shabrina - 103012300320
 
 ## Fitur
 - Mengambil koordinat perangkat saat ini menggunakan `Geolocator.getCurrentPosition()`
